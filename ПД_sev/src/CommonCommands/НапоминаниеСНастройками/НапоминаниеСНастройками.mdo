@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a5cfee4-f597-438a-9de5-132cbcf04e27">
+  <name>НапоминаниеСНастройками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напомнить...</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.Органайзер</group>
+  <commandParameterType>
+    <types>CatalogRef.Организации</types>
+    <types>DocumentRef.УстановкаСтоимостиВремениРаботы</types>
+    <types>DocumentRef.ПрочиеЗатраты</types>
+    <types>DocumentRef.СчетПокупателя</types>
+    <types>CatalogRef.ДоговорыОбслуживания</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.РабочееВремя</types>
+    <types>CatalogRef.ЗаданияГенерацииДокументов</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.СтатьиЗатрат</types>
+    <types>CatalogRef.МП_ВнешниеУстройства</types>
+    <types>DocumentRef.ВыплатаНачислений</types>
+    <types>DocumentRef.СчетПоставщика</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>DocumentRef.НачислениеЗП</types>
+    <types>CatalogRef.Проекты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Органайзер</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

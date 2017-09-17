@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bbb75fd-9cb5-47af-a9b2-d9700e796f98">
+  <name>ПолныеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полные права</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

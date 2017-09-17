@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a23bc9fa-bf35-470c-b6c2-3c9ac0f3a983">
+  <name>МакетСчетФактура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макет счет фактура</value>
+  </synonym>
+  <comment></comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

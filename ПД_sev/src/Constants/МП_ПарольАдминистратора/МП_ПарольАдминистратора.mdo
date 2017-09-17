@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3faa3bc8-e1fc-4411-beab-8ed5daaf3ed3">
+  <producedTypes>
+    <managerType typeId="e91c9079-0314-4c80-bf0c-ac45e499006e" valueTypeId="d959b756-e385-4e9e-a383-68f0f133c6f4"/>
+    <valueManagerType typeId="18bb445d-55db-4131-b0c9-5f118a7abc69" valueTypeId="b77ed5ab-3468-4276-9a42-2fa0161503a8"/>
+  </producedTypes>
+  <name>МП_ПарольАдминистратора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль администратора ТСД</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

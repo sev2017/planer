@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f4ed57c-9a8e-4be7-aa0e-34d6fa289dac">
+  <producedTypes>
+    <managerType typeId="7100c3e7-ffd6-44cf-8570-8996224fab84" valueTypeId="a3ce6f40-e51c-4baa-95a4-6bfc50f2b061"/>
+    <valueManagerType typeId="30165270-01b3-44a7-9fb4-1cd4eae3a11a" valueTypeId="50bc43b3-ce68-4886-9627-e4c564472983"/>
+  </producedTypes>
+  <name>IT_ИнтернетПоддержкаПароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль интернет-поддержки</value>
+  </synonym>
+  <comment>(eugenemoiseenko.ru)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

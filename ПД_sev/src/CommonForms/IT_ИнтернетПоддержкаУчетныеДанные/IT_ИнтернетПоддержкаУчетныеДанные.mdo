@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="355d7f39-b067-4322-9c70-7c547cb4c242">
+  <name>IT_ИнтернетПоддержкаУчетныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные данные интернет-поддержки</value>
+  </synonym>
+  <comment>(eugenemoiseenko.ru)</comment>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

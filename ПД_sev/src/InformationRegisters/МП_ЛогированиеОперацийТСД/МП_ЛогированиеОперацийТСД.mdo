@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222bdd45-975c-4c53-8b4c-e295f7251d7d">
+  <producedTypes>
+    <selectionType typeId="c4d11c00-fc6d-4104-96e9-ae2f36565fd0" valueTypeId="52b21a93-92fe-477a-a3d2-c20e5a3ad336"/>
+    <listType typeId="6f959aa6-2892-4a84-a2c5-bba6b9235fba" valueTypeId="dd232917-3748-4ef5-9160-c85a28d6f0b6"/>
+    <managerType typeId="e4a0148b-54d8-4e74-9c14-1ab46e2aee7c" valueTypeId="a6098c77-72b9-4d4a-8b2a-f312f4ad1406"/>
+    <recordSetType typeId="70fb0a51-c476-4f2a-93ed-f865a18d2678" valueTypeId="1451a6ec-cf4f-415f-a827-f4deb1cb5185"/>
+    <recordKeyType typeId="68983e7e-36a6-4293-b61e-7970c433a13a" valueTypeId="5397ba3b-1c77-418d-844a-984782676a6a"/>
+    <recordType typeId="2849613e-42ac-4a98-b60a-0e0ee44fb30b" valueTypeId="a90cd940-7853-4910-bb2e-1f0bc21ec418"/>
+    <recordManagerType typeId="89095894-fc1f-44e1-af5c-6b564738b691" valueTypeId="c586404f-dcde-4a02-a10a-749d271b3f26"/>
+  </producedTypes>
+  <name>МП_ЛогированиеОперацийТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование операций ТСД</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dimensions uuid="20f20a01-b302-4c40-ae9a-a77005ffa4f0">
+    <name>ТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.МП_ВнешниеУстройства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3065dc6d-b81d-465b-bff7-e1206056dc28">
+    <name>ЗапросОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос ответ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ffd19bb8-41e0-4544-98d7-70402426d437">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8ac3c151-22b6-4787-8260-426d0f054f68">
+    <name>УИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

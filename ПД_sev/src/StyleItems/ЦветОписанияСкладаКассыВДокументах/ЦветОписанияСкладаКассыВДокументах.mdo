@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37835dfe-34ee-4372-b235-75bd74d13af5">
+  <name>ЦветОписанияСкладаКассыВДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет описания склада кассы в документах</value>
+  </synonym>
+  <comment></comment>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef"/>
+  </value>
+</mdclass:StyleItem>

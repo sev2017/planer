@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a04436ba-2f6c-4d2b-8072-8bd4145bf675">
+  <name>Печать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ПользовательскиеМакетыПечати</content>
+  <content>CommonForm.РедактированиеТабличногоДокумента</content>
+  <content>Document.ЗаявкаНаТендер</content>
+</mdclass:Subsystem>

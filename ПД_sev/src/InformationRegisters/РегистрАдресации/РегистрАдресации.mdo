@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28e8a5fb-47c0-4f2a-b7f8-0630a4587e35">
+  <producedTypes>
+    <selectionType typeId="641e9ee2-cc25-4c99-b908-79c909e2c12e" valueTypeId="7dfcd1e4-2435-48bd-9eb7-37d4fb1b1dd1"/>
+    <listType typeId="a80ee2c1-5c9c-42f4-b823-449244625729" valueTypeId="96dc1e91-8369-445c-9069-90706523b271"/>
+    <managerType typeId="f008b91c-fdea-4d98-984b-1a5f512d6d89" valueTypeId="dd60b6ec-145e-49a7-94c3-e1f40b42b91e"/>
+    <recordSetType typeId="7049b087-8387-405e-ba68-5720afe01ffd" valueTypeId="7e24f2e2-cbb2-47ed-8831-4445eb4b98e2"/>
+    <recordKeyType typeId="88bf3a5d-ee84-4da9-bb39-9654b2e3d48f" valueTypeId="2be5730b-1651-4cf3-a62b-2e410bcb1913"/>
+    <recordType typeId="e2a1ac2e-d6ab-4096-9964-6b7ab955bfe1" valueTypeId="23a7e850-10c3-4b9d-9dc1-32e822b95278"/>
+    <recordManagerType typeId="731c5efa-be81-45e3-9253-f8ce09b6e201" valueTypeId="b56b5587-5d3e-4d2b-8e1a-f649c64f1c8d"/>
+  </producedTypes>
+  <name>РегистрАдресации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр адресации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="40c56371-2823-4685-bf07-12dabe3d3a35">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1208854d-75ea-4f76-b7ea-4b2234103705">
+  <producedTypes>
+    <managerType typeId="f4f2c6e4-e9ed-4264-81db-d8ffc07387bd" valueTypeId="60549dc1-2c98-49b4-891f-6f1d6c910328"/>
+    <valueManagerType typeId="7b605570-6863-4fb4-a57c-c05713856b30" valueTypeId="e9efb69e-84df-4098-9a16-7ac3126e9ba7"/>
+  </producedTypes>
+  <name>СМСПароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>СМС Пароль</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

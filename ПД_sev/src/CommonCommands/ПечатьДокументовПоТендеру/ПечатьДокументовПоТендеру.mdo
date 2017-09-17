@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79e755b4-9054-4fc3-b5f0-46479d02fa2f">
+  <name>ПечатьДокументовПоТендеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать документов по тендеру</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ЗаявкаНаТендер</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

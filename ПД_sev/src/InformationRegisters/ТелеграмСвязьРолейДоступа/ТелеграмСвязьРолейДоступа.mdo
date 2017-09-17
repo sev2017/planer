@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd45ff1c-a963-4a33-a4e2-013f14ef401c">
+  <producedTypes>
+    <selectionType typeId="daa6e271-1593-47d4-89a6-74c1abbc4967" valueTypeId="034218ad-e45e-4ec5-b400-f580b38e99a6"/>
+    <listType typeId="13259746-ee2f-40dd-95eb-e05fdb59650d" valueTypeId="6e7009c3-6186-4520-9d12-e7c17b9c1e20"/>
+    <managerType typeId="46347d7a-ce59-4756-ae3d-b9a1b5a5fae9" valueTypeId="6821e324-fa1a-41ae-906a-79e1f9bb1dd8"/>
+    <recordSetType typeId="a109d0a5-3337-486b-8a35-48b616117d73" valueTypeId="5bc681fa-3567-4255-a406-cbfe193b7982"/>
+    <recordKeyType typeId="4d8b4377-1ef4-4e5e-b371-83a6dd695350" valueTypeId="8aaeef8b-335b-4f8d-ad08-2099006e5a70"/>
+    <recordType typeId="d26c3fb9-1c62-48d5-b799-bf9d258cacb9" valueTypeId="33f30396-5504-4e9e-90ab-f286da79fbfc"/>
+    <recordManagerType typeId="26d04f53-9da3-44bf-bf86-34c5672f447e" valueTypeId="9ef233fd-2a95-4f43-b12b-7cfbb6c2db13"/>
+  </producedTypes>
+  <name>ТелеграмСвязьРолейДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм связь ролей доступа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="20b8eb7b-6fc2-4ba7-bb38-d39fc10a4627">
+    <name>РольДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТелеграмРолиДоступа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5102b5c1-b8fc-4730-8414-1a675bec2499">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

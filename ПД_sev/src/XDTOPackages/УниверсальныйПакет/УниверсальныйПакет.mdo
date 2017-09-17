@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e0b946a-19fc-42dc-b28b-11c356aaa2bf">
+  <name>УниверсальныйПакет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный пакет</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://www.universal-package.org</namespace>
+</mdclass:XDTOPackage>

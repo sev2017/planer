@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5db81c4-4fc5-4cef-a9b4-e9727f006dbe">
+  <producedTypes>
+    <managerType typeId="5dde303a-10f9-4464-9f07-e3e45b656610" valueTypeId="14bf789a-2c43-4fb7-a8ed-79c332fdd8ca"/>
+    <valueManagerType typeId="7f2d248f-af86-4ee3-b966-9d910e5f25d2" valueTypeId="9f2a8a7d-e2aa-4f28-9e26-4520d96ff932"/>
+  </producedTypes>
+  <name>FMСтрокаПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>FMСтрока подключения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

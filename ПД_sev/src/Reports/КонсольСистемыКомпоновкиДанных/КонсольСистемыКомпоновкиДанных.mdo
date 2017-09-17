@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bea1d62d-2f16-426c-b7cc-fac56a05970c">
+  <producedTypes>
+    <objectType typeId="5dd71348-5db9-445b-b038-9ba0be2effed" valueTypeId="61b1a243-5092-480b-bfd9-dba364da9f41"/>
+    <managerType typeId="b6ff5f24-1c4c-47eb-97a6-d73e90ddf43c" valueTypeId="2ac5334b-9237-4999-9255-053adafdee53"/>
+  </producedTypes>
+  <name>КонсольСистемыКомпоновкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль системы компоновки данных</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КонсольСистемыКомпоновкиДанных.Form.Форма</defaultForm>
+  <mainDataCompositionSchema>Report.КонсольСистемыКомпоновкиДанных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="98037755-ee58-4462-8c83-3eff5ac46377">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7b05f9d-ea90-423c-b157-b52302ecc252">
+    <name>ФормаРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a3c2d17-8b87-4461-aed4-ee860735057f">
+    <name>ФормаВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма варианта</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5431ef91-1add-4706-afc2-d8cfa64a7b3c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

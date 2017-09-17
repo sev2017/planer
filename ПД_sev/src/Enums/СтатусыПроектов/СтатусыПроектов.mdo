@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ddeb9c0-5e89-478b-a9bc-124b45ce4006">
+  <producedTypes>
+    <refType typeId="e26f50c4-b590-45ae-a383-88c0cc63617c" valueTypeId="82885fa2-086f-4258-8741-54e5aaead493"/>
+    <listType typeId="eab4d5be-dba2-4886-8575-90fb122e2554" valueTypeId="bdc1a051-4f4f-42eb-aeae-0ae1c0676af9"/>
+    <managerType typeId="4a6129e4-5f8d-46f4-b3ba-8f29bcadc345" valueTypeId="fb0b054b-6b22-488f-ad52-cb2419a58545"/>
+  </producedTypes>
+  <name>СтатусыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проектов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa17fa0b-2d57-472e-8084-a7bf5ee3e18b">
+    <name>Анализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e436c223-822f-4b0d-ae72-27d2996eec2a">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a96a93be-1223-481d-9873-1931bdd3e0bf">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4ff97eda-2c2c-4891-9d8c-7b15ccbd89e4">
+    <name>ОжидаетОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает оплаты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cb336957-95e5-40c1-9d89-b3044e9b201a">
+    <name>ФормированиеДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование документов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9be57f2b-aaed-41bb-9059-2306745b5b60">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

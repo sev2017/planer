@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bdf2bc0-cd23-459d-9e47-c61bcfef8656">
+  <name>МобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.МП_ВнешниеУстройства</content>
+  <content>Catalog.МП_ДополнительныеПраваТСД</content>
+  <content>InformationRegister.МП_ЗначениеПравТСД</content>
+  <content>Constant.МП_ПарольАдминистратора</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

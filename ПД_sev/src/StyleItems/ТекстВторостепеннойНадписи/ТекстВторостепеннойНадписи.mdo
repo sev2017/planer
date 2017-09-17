@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7525f4e3-165c-4018-8e6f-cb40e0925380">
+  <name>ТекстВторостепеннойНадписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст второстепенной надписи</value>
+  </synonym>
+  <comment></comment>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef"/>
+  </value>
+</mdclass:StyleItem>

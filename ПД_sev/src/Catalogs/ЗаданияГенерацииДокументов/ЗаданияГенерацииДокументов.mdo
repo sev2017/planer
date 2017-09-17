@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e70e00-a39f-400b-857e-626adf0f05dc">
+  <producedTypes>
+    <objectType typeId="71a9765c-e484-41bd-a440-1753c9e837a9" valueTypeId="1dd5fe37-75d1-45e5-8ff0-67e8789d6c2c"/>
+    <refType typeId="8d355356-c2b2-49dc-8d62-429a588acd17" valueTypeId="f4003d9c-6282-4acb-ba4e-28766260cf00"/>
+    <selectionType typeId="f581b9b0-01ac-40ba-bc1d-d455392e7a8f" valueTypeId="75469602-9479-47e7-8ac6-4064d68473a4"/>
+    <listType typeId="d983e1ca-0eeb-4588-be6f-338350483505" valueTypeId="51dd3eb8-c33b-4509-b5ef-72074c3ba4db"/>
+    <managerType typeId="8c7c0c80-cf66-4465-a52c-0081c3900ea1" valueTypeId="4c660350-d208-4de5-9482-8995ef68720a"/>
+  </producedTypes>
+  <name>ЗаданияГенерацииДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания генерации документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗаданияГенерацииДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗаданияГенерацииДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗаданияГенерацииДокументов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗаданияГенерацииДокументов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="89e90a2e-bfba-4886-b5ad-8e06728b3979">
+    <name>ДоговорОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор обслуживания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыОбслуживания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2fde3b2b-32f1-415d-80f9-091161d10a99">
+    <name>ПериодСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период создания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.НачалоКонецМесяца</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="80638888-9cdb-40c2-8c71-30c978013ef4">
+    <name>ДатаНачалаДействияЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия задания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d5feb23d-5b3e-4099-a90e-7f2996b89d59">
+    <name>ДеньМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>День месяца</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f9068a9b-e136-43a5-8916-a52652324605">
+    <name>ОтправлятьКопииДокументовКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять копии документов клиенту</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="6c8c0ba8-be2a-4d91-a149-796d8eb13990">
+    <producedTypes>
+      <objectType typeId="9f8a2787-ba25-4b67-8b4c-811fd3f70f85" valueTypeId="8af94859-7cfb-4745-a7d1-ac72caa3243f"/>
+      <rowType typeId="91cf21db-a3a1-430e-8218-e5dbd17c54b9" valueTypeId="2ba68f68-c882-4018-b0bc-c4a65439c7df"/>
+    </producedTypes>
+    <name>ОтветственныеСотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные сотрудники</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="add5f84d-0395-4518-bab1-ddce1eb76da4">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fa359922-b8eb-43cf-b7ab-57086c903075">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="703c6685-aa73-4313-9192-bcbb913947d9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

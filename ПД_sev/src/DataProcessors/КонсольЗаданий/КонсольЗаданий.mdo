@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57c8c70-6d25-4294-ac24-a66fd5f58ee9">
+  <producedTypes>
+    <objectType typeId="cd5aa1f4-f65b-4f38-9d55-7ead9f34dc96" valueTypeId="e2a3c180-b284-404f-83a9-e83eea69bc43"/>
+    <managerType typeId="37b3e667-6cc4-453a-b4ed-291763c9dcc4" valueTypeId="482d77b9-792c-4d2d-8f13-8fb51c625c8a"/>
+  </producedTypes>
+  <name>КонсольЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль заданий</value>
+  </synonym>
+  <comment>(c) Душелов'2009</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольЗаданий.Form.Форма</defaultForm>
+  <forms uuid="666d4981-6ccb-43bd-b0c1-072a2dec6d2f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="199fbba9-3359-40b5-b3d5-243624d29bfe">
+    <name>ДиалогРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог регламентного задания</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d080fc3-1a07-4c39-bc1e-98f41c8b2a29">
+    <name>ДиалогФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог фонового задания</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93b0e3b2-4ec5-4cb3-bac4-b4e3fc71a4e2">
+    <name>ДиалогНастроекСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог настроек списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df48c491-412d-4d8d-b902-f68bcf1fc4e4">
+    <name>ДиалогОтбораРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора регламентного задания</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0fbdb48-9687-4440-95c8-bb9707cb3d44">
+    <name>ДиалогОтбораФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора фонового задания</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cdbd752-f35d-430a-9282-e538b494cb32">
+  <producedTypes>
+    <selectionType typeId="365a54ab-dcd6-4e11-a1a9-a4c49c960943" valueTypeId="5eba23ba-2063-40af-b8b5-b2b36a583f82"/>
+    <listType typeId="5a7dde20-bf34-4693-832d-fa0996932f76" valueTypeId="ee812876-0269-490b-9405-6bc3da559d2d"/>
+    <managerType typeId="57eb1205-e8a6-4cec-9dcc-fd357496155f" valueTypeId="aea755c8-fa36-482f-8101-052ca06fdf63"/>
+    <recordSetType typeId="6a224f7e-f3f2-436c-9eab-390839605c24" valueTypeId="0ee89ef0-d750-4c43-890b-a0e82af1dab5"/>
+    <recordKeyType typeId="461ff5fb-9b25-4d85-a3b0-6f14718818c4" valueTypeId="e20827bb-77a0-41bf-8872-f45fb69d9b35"/>
+    <recordType typeId="fc36c5ff-4013-401f-819c-7454e886d8b3" valueTypeId="ae7146a2-a21c-44d9-a680-e6ded3f1b624"/>
+  </producedTypes>
+  <name>ПрибыльПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прибыль по проектам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f6791e34-c1f9-4ce4-b866-102ce6dccd13">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0d78245e-c109-49ac-845b-b1fbbd6e9d1d">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="aeac08df-9bd1-4241-9830-61c16205b830">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

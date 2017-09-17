@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddfd4595-f92c-4cfb-9fd6-1203651b3adf">
+  <name>НапоминанияПользователяГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминания пользователя глобальный</value>
+  </synonym>
+  <comment></comment>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

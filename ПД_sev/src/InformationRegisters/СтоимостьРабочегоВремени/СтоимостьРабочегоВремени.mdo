@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a247df94-0e3f-47a4-8f97-25fd8e544d3e">
+  <producedTypes>
+    <selectionType typeId="4abd8cbe-d1f4-402c-a4fe-9912aa963040" valueTypeId="fae1696b-9d82-4f0c-b576-976c285d592d"/>
+    <listType typeId="cc9b5790-3d33-41b6-b202-6719c8d229e2" valueTypeId="0c1be4b9-9230-43c3-8036-c90f5b174381"/>
+    <managerType typeId="dfac64ce-d746-40d3-821d-3fbd817fc4a9" valueTypeId="c0490a09-2e2d-49df-a81d-0941c14f6d06"/>
+    <recordSetType typeId="e327375f-9e6a-4656-be2b-83d6d194b14d" valueTypeId="8794e962-9634-4206-895c-1bb400b0322d"/>
+    <recordKeyType typeId="adac345b-c8df-4b1f-82e9-fdab00fab898" valueTypeId="ebf17094-cf79-4072-b669-497718d1337c"/>
+    <recordType typeId="619bab55-db66-4176-be97-0f7b8c4ba268" valueTypeId="9e0b24ef-edc3-46e1-8532-6cb7c331c5b4"/>
+    <recordManagerType typeId="8b17f37c-b746-468e-8d1f-5a48199a7778" valueTypeId="3be0e946-10a8-4e38-afb0-9ee7deb07f9b"/>
+  </producedTypes>
+  <name>СтоимостьРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость рабочего времени</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="be967f94-3208-4b4e-8485-f4ea72c95212">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c73fd0a3-5c36-416d-ae59-5881e4fe599f">
+    <name>ДеньНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>День недели</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ДниНедели</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fb4b278e-9112-46ce-9f6a-abfb2b36f767">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b0c3d2d7-8049-4975-9488-717cd641b033">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

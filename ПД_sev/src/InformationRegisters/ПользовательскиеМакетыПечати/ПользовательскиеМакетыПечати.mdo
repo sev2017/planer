@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87725eb7-d6ef-4b99-bcee-d54652069b6f">
+  <producedTypes>
+    <selectionType typeId="173fe4ca-a220-4242-84cd-c65c33bc16e2" valueTypeId="da03a353-684b-49ed-8932-f6c3e3222c64"/>
+    <listType typeId="79ef14c3-0c09-4be9-aa0e-8cf2d7ed0f81" valueTypeId="ca8f0cf5-d198-4fbb-ae9d-784587b76bd5"/>
+    <managerType typeId="c25625e5-8f1a-4a4a-ad7d-471b4a454321" valueTypeId="c02ccf02-7874-4278-8c3f-c7c78eecf6ce"/>
+    <recordSetType typeId="6e317105-2df0-4685-bb98-5057a5146b78" valueTypeId="5acb5450-f0d0-408b-8f02-3b8fd9e1929b"/>
+    <recordKeyType typeId="eda6830c-eeb4-4fc0-bb24-0452691ac3f7" valueTypeId="17ff4858-c345-478c-8f20-be6cb3460d79"/>
+    <recordType typeId="281b146f-0dfa-4c20-963e-e8d90e75b1b6" valueTypeId="9f0ed8c5-0ab0-46e6-aac6-293e0ecb0297"/>
+    <recordManagerType typeId="94a7683f-c033-43ed-88a5-106bf344a036" valueTypeId="fd093e2b-fbf3-4d83-9f9f-0e2824b650fa"/>
+  </producedTypes>
+  <name>ПользовательскиеМакетыПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользовательские макеты печати</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПользовательскиеМакетыПечати.Form.МакетыПечатныхФорм</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Макеты печатных форм</value>
+  </listPresentation>
+  <resources uuid="7956f026-90d0-4f0d-b884-65b848d86020">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Двоичные данные пользовательского макета</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5ac0eca8-83eb-4c61-bf1e-9e0f3dc1b8f2">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать макет</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="94ce5630-ffec-4387-8312-95cc45237b04">
+    <name>ИмяМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя макета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя макета печати</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f33566d3-f8ba-40d8-9cae-9fccaf83a35e">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект метаданных, к которому относится макет</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="40901bf5-9863-4bbf-bdf4-4d6485f050b6">
+    <name>ОбъектВладелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bbb92f61-33d9-4c77-bb59-9043d48534d3">
+    <name>ВыбораРежимаОткрытияМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбора режима открытия макета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f8e748f8-ff91-4f41-bef7-69f145e6d35c">
+    <name>МакетыПечатныхФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макеты печатных форм</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83880c71-9677-46b8-90be-4b4e5fe7cd2d">
+    <name>РедактированиеМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование макета</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a9dac6e-d4cb-4818-a76b-84736630df9c">
+    <name>ПроверкаПечатныхФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка печатных форм</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

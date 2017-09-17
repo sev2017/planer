@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae89a0a8-c044-4d01-9935-1e79f06dbaf3">
+  <producedTypes>
+    <refType typeId="ee9b450c-1f09-4587-92ef-718dec15e9cf" valueTypeId="f373a2b5-ea6c-4125-9500-c13c365541a0"/>
+    <listType typeId="6d021c5a-078c-4e15-9958-7bb6a5c7268f" valueTypeId="005644f9-56b3-46c0-aa81-5c44e082ba05"/>
+    <managerType typeId="260f903a-4dfe-4c86-82ac-ed742609fdb8" valueTypeId="edccedc3-2c4d-411e-a5ee-1b47b23a4861"/>
+  </producedTypes>
+  <name>СтатусыПодготовкиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы подготовки документов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c61a7257-98a2-4d2f-93ea-6bf3669446a4">
+    <name>НеСформированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не сформированы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bb83c0a5-4a4a-4655-895a-9fa741923d6f">
+    <name>ЧастичноСформированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d55d3a44-ac53-4a86-ad57-0c4b49b6e216">
+    <name>Сформированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформированы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

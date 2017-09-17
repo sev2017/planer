@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="712b699f-4fb4-48c5-bb24-4cec78f49c26">
+  <producedTypes>
+    <objectType typeId="07137b98-7581-4caa-ab65-e98dba1facc7" valueTypeId="f60697fb-baaf-44b8-ae0e-c50c7464873f"/>
+    <refType typeId="8f0765ab-892d-4cf8-848a-42f922a17e72" valueTypeId="62b59af4-0e3a-4e79-9be7-5bef51c3c0dd"/>
+    <selectionType typeId="2b7bcbf4-26fa-41f5-bd71-d92ca8d8dfb4" valueTypeId="642f0542-ff02-488b-a328-ed94b1a7e108"/>
+    <listType typeId="ff5b17d4-267d-4a9b-a497-14639a9f251b" valueTypeId="78cfd1ca-3b83-4ba3-96de-1f283dc738f9"/>
+    <managerType typeId="1576e6da-e6ae-4b00-8835-19c738c28501" valueTypeId="2fa2055b-ef2f-4482-87d0-6a651cbfb1b2"/>
+  </producedTypes>
+  <name>МП_ДополнительныеПраваТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>М п дополнительные права ТСД</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.МП_ДополнительныеПраваТСД.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МП_ДополнительныеПраваТСД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="962cd3cb-7acf-4b64-a1fd-12221244c071">
+      <name>РазрешитьВводШтрихкодов</name>
+      <description>Разрешить ввод штрихкодов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4c8bf447-4da6-4484-bd32-6f076f66ce72">
+      <name>РазрешитьСвободныйВыборПользователя</name>
+      <description>Разрешить выбор пользователей не связанных со своим складов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="976e8ca9-2b9e-470e-85b2-06be3908405e">
+      <name>РазрешитьИзменятьПользователя</name>
+      <description>Разрешить изменять пользователя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="02702ec4-3707-4c01-b21a-6e4d2a3810e7">
+      <name>РазрешитьИзменятьСклад</name>
+      <description>Разрешить изменять склад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="43a46ee2-b152-4bff-893d-902ef5b35f15">
+      <name>РазрешитьОтложенныйТранзит</name>
+      <description>Разрешить отложенный транзит</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="777d7dbb-1cb0-41e2-9050-ef7666a228b8">
+      <name>РазрешитьПриниматьОтгружатьТоварНеПоСвоемуСкладу</name>
+      <description>Разрешить принимать товар не на своей склад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="8a8c0f20-1dfc-4578-96da-0aa6f109b715">
+      <name>РазрешитьСозданиеНовойНоменклатуры</name>
+      <description>Разрешить создание новой номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="bf89d4d8-8113-4758-9367-83cdf02c3da0">
+      <name>РазрешитьТранзитДеньВДень</name>
+      <description>Разрешить транзит день в день</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="081c4124-8522-444f-a04c-4c064fdd7c0a">
+      <name>РазрешитьУстановкуФлагаТранзит</name>
+      <description>Разрешить установку флага транзит</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

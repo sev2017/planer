@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e146e8b7-1f97-419c-a68e-3d0581c523ca">
+  <producedTypes>
+    <objectType typeId="b26c269c-c073-4905-9917-eb5871873a76" valueTypeId="25fb161a-f29a-4e7d-91f9-d6e16109fa84"/>
+    <managerType typeId="f6204a94-9f2b-4c98-89e5-d3d8f0c2fcf0" valueTypeId="ee08bea8-cc8b-4a5f-b337-c493afaeb674"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Начисления.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="864e02d8-bf89-4918-8e70-8323e505424e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5dd6a4fc-7e05-4162-8e4e-54e72ee692a3">
+    <name>СКДНачисленияДляМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКДНачисления для МП</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a51f7890-9e6f-439d-91bb-ef5fc98d178e">
+    <name>ОбщиеНачисленияДляТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие начисления для телеграм</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

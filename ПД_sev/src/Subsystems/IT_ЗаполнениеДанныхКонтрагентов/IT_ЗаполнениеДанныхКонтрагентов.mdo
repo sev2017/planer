@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc411ed-1b3d-495c-9d78-3262e4202c06">
+  <name>IT_ЗаполнениеДанныхКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение данных контрагентов</value>
+  </synonym>
+  <comment>(eugenemoiseenko.ru)</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.IT_СервисДанныхЕдиныхГосРеестров</content>
+  <content>Catalog.Контрагенты</content>
+  <content>b85538b2-6ebf-4931-b281-0a77360951be</content>
+  <content>Constant.IT_ИнтернетПоддержкаЛогин</content>
+  <content>Constant.IT_ИнтернетПоддержкаПароль</content>
+  <content>CommonForm.IT_ИнтернетПоддержкаУчетныеДанные</content>
+  <content>8197429f-4a60-4e2d-ae73-adcad9dcd0fe</content>
+  <content>XDTOPackage.IT_КонтактнаяИнформация</content>
+  <content>Constant.IT_ИнтернетПоддержкаПинКод</content>
+</mdclass:Subsystem>

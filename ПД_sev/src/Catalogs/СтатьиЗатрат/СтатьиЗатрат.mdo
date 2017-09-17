@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d49ca74-dc9f-4bac-86b4-2160604c81ff">
+  <producedTypes>
+    <objectType typeId="b3987150-2817-42c9-af0b-4ca641e49207" valueTypeId="974c3813-05d7-463e-8916-3fe3c6f804d2"/>
+    <refType typeId="9cfa54a2-20bc-4a79-acd1-272c75909dd4" valueTypeId="5ef2482b-60c3-406c-8693-c0c019f70293"/>
+    <selectionType typeId="6b665b31-9512-4159-b231-fbc6ad39a7ee" valueTypeId="cff9a736-fdec-43eb-b008-8387d410bf9d"/>
+    <listType typeId="6184998b-8310-4d8a-a294-b91f3c3e44d9" valueTypeId="71e3eab9-b847-4b6c-8814-01837c558c26"/>
+    <managerType typeId="41589c79-b8e6-4608-aba8-86ab1973c4c9" valueTypeId="2f20dd74-26ca-4eab-b7df-185d2209d66d"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1c794d9c-1e66-4ab6-a406-64a4dd23d53f">
+      <name>Материалы</name>
+      <description>Материалы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e96d81b3-32e3-49fd-ab46-f8d21b5b1d45">
+      <name>РабочееВремя</name>
+      <description>Рабочее время</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

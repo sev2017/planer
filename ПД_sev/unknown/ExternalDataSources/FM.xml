@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<ExternalDataSource uuid="12214cb4-184b-4f51-9aa2-6cb3a887ee82">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceManager.FM" category="Manager">
+				<xr:TypeId>1d0b6fc3-5723-403c-b800-03b9c318e366</xr:TypeId>
+				<xr:ValueId>451c9d64-a590-4fd3-8e73-9e951ddd3265</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTablesManager.FM" category="TablesManager">
+				<xr:TypeId>33253794-7717-4d38-bbfc-9da0b8e30cb3</xr:TypeId>
+				<xr:ValueId>14e9d226-c1ec-4ae8-96f9-e639c0b7fef2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceCubesManager.FM" category="CubesManager">
+				<xr:TypeId>07746893-3240-4e1f-9759-e2c2234675fa</xr:TypeId>
+				<xr:ValueId>382820ab-5c91-49c9-8519-7bb749d07640</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>FM</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>FM</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Table>Invoices</Table>
+		</ChildObjects>
+	</ExternalDataSource>
+</MetaDataObject>

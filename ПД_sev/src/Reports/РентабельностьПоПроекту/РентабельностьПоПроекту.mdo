@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cf864d4-2da5-44ab-a422-4faeda607927">
+  <producedTypes>
+    <objectType typeId="a157579c-ce16-40a1-a7f7-16c7e9b088c6" valueTypeId="30390528-e74b-4098-ae56-82587e926100"/>
+    <managerType typeId="4df088d2-bb53-4641-8811-f429204f7cc9" valueTypeId="b5581b7d-52d7-4fd0-aa0f-4aac7a749c81"/>
+  </producedTypes>
+  <name>РентабельностьПоПроекту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рентабельность по проекту</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РентабельностьПоПроекту.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ccba82d7-e174-4ca6-8c53-c0fb90b779c8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e0f56e6e-5aad-49c4-b6fd-cdacbb4a3b29">
+    <name>СКДДляПрограммногоФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКДДля программного формирования</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

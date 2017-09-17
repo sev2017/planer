@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02055123-6de4-4176-b2c0-a4bb9803bbab">
+  <name>Обслуживание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДоговорыОбслуживания</content>
+  <content>Catalog.ЗаданияГенерацииДокументов</content>
+  <content>Document.РабочееВремя</content>
+  <content>Document.ПрочиеЗатраты</content>
+  <parentSubsystem>Subsystem.ЗакупкиПродажи</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbc9f1da-392e-4bc2-bce2-024ee2b730f1">
+  <producedTypes>
+    <selectionType typeId="081f3d99-2f9e-4fa5-ba58-9f503bae5366" valueTypeId="e9667cdc-d469-450c-8946-292de4b3d764"/>
+    <listType typeId="5c385d0c-4305-4155-9371-cd4ae2d56366" valueTypeId="3b5228e8-b82a-4be3-9633-d4110f532a87"/>
+    <managerType typeId="6ee982b5-4022-44e1-a904-67410eaf3c00" valueTypeId="a052b938-a6e9-4829-b003-6f2e09abef4a"/>
+    <recordSetType typeId="8a157eef-513d-4413-8e8d-4e67efb2efc2" valueTypeId="0bf5b70d-eb51-4c2b-911f-1b1c67525616"/>
+    <recordKeyType typeId="57473a72-4006-4b8b-83ad-5e7b933ff7b2" valueTypeId="8ef03013-2846-4c70-bea1-b98f19b59693"/>
+    <recordType typeId="8e301478-4a34-4a7c-a3b3-a4ec5391edec" valueTypeId="4f364d07-f322-4362-b7c0-a39c734a42aa"/>
+    <recordManagerType typeId="0895d7b3-a218-4785-b9d9-47f0e5f0d28a" valueTypeId="b459dc13-1720-4063-ae9f-47fa283c494e"/>
+  </producedTypes>
+  <name>ЖурналГенерацииДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал генерации документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4e216dc8-2c45-4807-a70e-c49a62d4eda4">
+    <name>ДоговорОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор обслуживания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыОбслуживания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

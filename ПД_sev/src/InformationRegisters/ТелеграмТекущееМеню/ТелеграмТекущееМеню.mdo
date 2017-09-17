@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8983e404-92f6-43de-bcd6-67a0779b6328">
+  <producedTypes>
+    <selectionType typeId="fbd0bca6-9ed8-459d-87b4-542fa701803e" valueTypeId="2f7439de-1049-409a-aef2-ee198d3ab5f0"/>
+    <listType typeId="97c522d7-8793-46b0-b5fc-b59712977319" valueTypeId="b042b466-a030-499f-8d82-79e9fbeb8015"/>
+    <managerType typeId="13c0c910-0036-4062-9b04-3a32701da741" valueTypeId="77ce17eb-ed13-4c43-bf7f-1f213bcf2df0"/>
+    <recordSetType typeId="d8619e49-9a7c-46f2-90b3-fcbcdd57080f" valueTypeId="d08a9171-d0c3-4b4c-a542-dc4beceb48ea"/>
+    <recordKeyType typeId="bffd797e-4f54-4127-a6d5-31776af9e221" valueTypeId="bd2026e7-ea5d-4a41-b757-083d8c879b73"/>
+    <recordType typeId="7c302765-e96a-4fd1-a087-d0a6bbc1d8eb" valueTypeId="88e50a1e-6fb4-41c2-bc37-ff13aa7ab169"/>
+    <recordManagerType typeId="19e77255-3fab-4de5-a2f1-4b02fc946c36" valueTypeId="b8eb5667-0fed-4d5c-9e66-fe964bef006d"/>
+  </producedTypes>
+  <name>ТелеграмТекущееМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм текущее меню</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d30294cf-340a-456d-b4ef-c78b4f145c59">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9bfdfdd-7315-4e07-a191-fc8bc9a04bb9">
+    <name>ТекущийУровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий уровень</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТелеграмКоманды</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d1c012ec-87c2-409b-9f80-a40284e6cb39">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

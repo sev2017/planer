@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b91062b-1c2f-4f99-8b88-b81c9d17783b">
+  <producedTypes>
+    <selectionType typeId="2d9df450-0981-445e-ad23-e33a5c3c20e1" valueTypeId="23061954-b7f5-4cd0-9402-d48218680580"/>
+    <listType typeId="d3022f13-b5f1-4f19-b6e3-fbff6cab12b4" valueTypeId="c6262650-1f09-49ef-b0b7-1af264e4cb67"/>
+    <managerType typeId="5ef3b8bd-fceb-45dc-bb6a-4d939240acc0" valueTypeId="a63f2566-f79a-49ea-825f-4f2ec12ffca6"/>
+    <recordSetType typeId="f61c5d1f-d143-4af9-bbd6-818fe15e3c77" valueTypeId="214b6096-a76d-45e9-8f8c-841a87fca157"/>
+    <recordKeyType typeId="db129e7e-f1ec-4e4e-b494-431eb97de8b7" valueTypeId="2903ec30-9567-4c98-98b8-4f5558ebf32a"/>
+    <recordType typeId="35649dc9-e21f-4b0f-affa-0688f7dc0ceb" valueTypeId="277ce1ee-430c-4c66-b78c-28bc9d3e6c1a"/>
+    <recordManagerType typeId="ae15110d-0368-477d-a9ed-66ad5f013755" valueTypeId="f743d2c5-d632-4447-9e24-0b18ae492594"/>
+  </producedTypes>
+  <name>МП_ЗначениеПравТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение прав ТСД</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="b8739c0c-7e14-4c7a-9df6-8e1fd226aa26">
+    <name>ЗначениеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение права</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7303158a-5ff2-4045-a415-3a3fcf1f1604">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.МП_ВнешниеУстройства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="909e9ef6-cfca-4d1e-84e6-e5e323d1d5a4">
+    <name>Право</name>
+    <synonym>
+      <key>ru</key>
+      <value>Право</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.МП_ДополнительныеПраваТСД</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

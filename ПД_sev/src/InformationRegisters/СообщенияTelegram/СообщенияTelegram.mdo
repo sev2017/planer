@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="726380da-a5ab-4ec0-927c-509b613a6986">
+  <producedTypes>
+    <selectionType typeId="7c162736-03fc-4572-adec-0b300f9eec6c" valueTypeId="3f60e649-70f5-4dd1-8268-075df9219888"/>
+    <listType typeId="6525a016-aef6-49b7-8f4e-031dbcbffedb" valueTypeId="bf1a7089-7b12-442e-af14-fd26fd99d478"/>
+    <managerType typeId="a1c8a2e1-3e62-4687-8778-f9fdcbdea82f" valueTypeId="fb5c1fe0-fb08-4e4c-af0b-4196d4b43e4c"/>
+    <recordSetType typeId="99de7165-d3fa-4701-9c75-fc595a1975ad" valueTypeId="b48dbb14-a63a-437e-9bdf-03ba951d5678"/>
+    <recordKeyType typeId="ea1b9b76-9053-40d9-95dd-d5a5e9dab5bc" valueTypeId="70089f74-c58c-4807-9473-11aa558d2b53"/>
+    <recordType typeId="993b4694-9f8f-45de-98d4-3d0fb3aff1ce" valueTypeId="a22871d8-fa24-4541-ba61-20d8e3e2d14f"/>
+    <recordManagerType typeId="26b637ec-ef8e-43d6-a688-f51a0ab0c18a" valueTypeId="4d179fef-776b-40f2-9584-a20e3ea8f853"/>
+  </producedTypes>
+  <name>СообщенияTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения telegram</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="8bb3e708-32a7-4b6a-9e3b-2939ee21ae69">
+    <name>date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Date</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ac61cc37-395e-4b36-9142-50ba8739c70a">
+    <name>text</name>
+    <synonym>
+      <key>ru</key>
+      <value>Text</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5dbfd783-1e82-44b0-a9f5-ae20dd52f5eb">
+    <name>message_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Message id</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae22a604-08ba-47ca-a277-1a59c95ee3f4">
+    <name>first_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>First name</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="201c2bb1-ab3d-4894-9f6c-52556a5c23af">
+    <name>last_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Last name</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2b0b729a-283c-4f32-9c06-bda6a98e5a22">
+    <name>username</name>
+    <synonym>
+      <key>ru</key>
+      <value>Username</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b6005fe5-a831-4db8-99ac-5dbf75dc4262">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

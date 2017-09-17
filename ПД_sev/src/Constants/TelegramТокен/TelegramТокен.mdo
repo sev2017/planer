@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10757b2f-b680-4f04-a74e-d151a3bf8bbe">
+  <producedTypes>
+    <managerType typeId="6f16c8fc-3a53-4839-ac75-c48bbd9b6570" valueTypeId="3e8260ae-f2b4-4886-8077-c363e502b5f5"/>
+    <valueManagerType typeId="10a715a3-73d7-499d-8fca-414c43efcc7e" valueTypeId="4b040238-6635-40ba-81d2-a61dfea6f851"/>
+  </producedTypes>
+  <name>TelegramТокен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram токен</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

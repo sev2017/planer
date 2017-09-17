@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71f6fdb9-fca5-4215-a313-a5bd0940b133">
+  <name>Планировщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

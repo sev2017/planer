@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdc99459-00e0-40ac-9bc6-cbe928af9942">
+  <producedTypes>
+    <managerType typeId="0d25b93f-9430-4079-9628-140743055ce3" valueTypeId="a07905e6-29f7-477f-accb-4a8e9b36837d"/>
+    <valueManagerType typeId="29c5ac63-75ca-41b7-95ea-a68fe9595ce1" valueTypeId="06d05c58-a264-4545-89bf-e91e10b04977"/>
+  </producedTypes>
+  <name>PushТокенПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Push токен приложения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

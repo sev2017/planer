@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b53f9f63-00ff-4c92-9d86-87564d608e54">
+  <producedTypes>
+    <managerType typeId="b022665e-b84f-4719-b54b-1d90a4c504b3" valueTypeId="ceb0bc20-31de-4e17-99d9-8e6aa252ef49"/>
+    <valueManagerType typeId="33e59d9a-3215-4811-b310-775fef3dcf7d" valueTypeId="8d22b066-43f1-4584-8d3a-c1021d927523"/>
+  </producedTypes>
+  <name>ПерсоналНачалоРабочегоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонал начало рабочего дня</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

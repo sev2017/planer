@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4e49f52-62f4-4a86-8eed-b9600bbaff39">
+  <name>Персонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонал</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УстановкаСтоимостиВремениРаботы</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Constant.ПерсоналОкончаниеРабочегоДня</content>
+  <content>Constant.ПерсоналНачалоРабочегоДня</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

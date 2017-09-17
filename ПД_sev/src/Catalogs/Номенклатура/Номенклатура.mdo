@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ade240d-a2ae-45d6-9365-311a720f7107">
+  <producedTypes>
+    <objectType typeId="b56c9354-3e63-49fe-b934-7c0c9c6f6f81" valueTypeId="8d4de4d1-682b-4dce-9841-cc22e8217660"/>
+    <refType typeId="3aa4cf2a-b15a-4b99-8ca9-5145e635d233" valueTypeId="489cd491-9d2d-495c-ada4-36898cbfb399"/>
+    <selectionType typeId="dd3c2399-af5e-47ad-9614-19f2f8d32ddb" valueTypeId="b7d261b5-1a8f-468a-b2f6-844cf84fe3cc"/>
+    <listType typeId="fffee5f9-1f5b-4218-8f6e-7128a78ccd95" valueTypeId="be3d62e9-2988-449d-b777-daf87935b336"/>
+    <managerType typeId="1cd50b75-c8cc-418e-b8f3-acd9ccefdd0b" valueTypeId="91e5d6db-49c0-4396-a258-e30b34449ea9"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6e3b0bfd-cf78-4f95-8a3c-33906b3e730d">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cfc67f10-a293-4806-9e06-a2bc52211066">
+    <name>ЕдиницаХраненияОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица хранения остатков</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="290b1006-b7eb-4c2e-9340-73112731dce9">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f837739a-b1fd-499c-9a67-0c7e9a9e1841">
+  <name>ВложенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вложенные файлы</value>
+  </synonym>
+  <comment></comment>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef.ПочтовыеАдреса</types>
+    <types>CatalogRef.Организации</types>
+    <types>DocumentRef.УстановкаСтоимостиВремениРаботы</types>
+    <types>DocumentRef.ПрочиеЗатраты</types>
+    <types>DocumentRef.СчетПокупателя</types>
+    <types>CatalogRef.ДоговорыОбслуживания</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.РабочееВремя</types>
+    <types>CatalogRef.ЗаданияГенерацииДокументов</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.МП_ВнешниеУстройства</types>
+    <types>DocumentRef.ВыплатаНачислений</types>
+    <types>DocumentRef.СчетПоставщика</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>DocumentRef.НачислениеЗП</types>
+    <types>CatalogRef.Проекты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

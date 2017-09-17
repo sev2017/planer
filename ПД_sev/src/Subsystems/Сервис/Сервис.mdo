@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29dec864-0b7e-4ac6-b35b-91f7b696a55b">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Сервис</picture>
+  </picture>
+  <content>Constant.SMTPАдресСервера</content>
+  <content>Constant.SMTPПортСервера</content>
+  <content>Constant.SMTPИмяПользователя</content>
+  <content>Constant.SMTPПарольПользователя</content>
+  <content>Constant.COMСтрокаПодключения</content>
+  <content>Constant.COMКодНоменклатурыУслуги</content>
+  <content>Constant.СМСИмяПользователя</content>
+  <content>Constant.СМСПароль</content>
+  <content>Constant.СМСПорт</content>
+  <content>InformationRegister.ЖурналГенерацииДокументов</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>Constant.FMСтрокаПодключения</content>
+  <content>Constant.УПОсновнаяОрганизация</content>
+  <content>Catalog.ВидыПрикремленныхДокументов</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ПочтовыеАдреса</content>
+  <content>DataProcessor.РабочийСтол</content>
+  <content>InformationRegister.РегистрАдресации</content>
+  <content>Constant.PushТокенПриложения</content>
+  <content>Report.КонсольСистемыКомпоновкиДанных</content>
+  <subsystems>НастройкиУпрУчета</subsystems>
+  <subsystems>Персонал</subsystems>
+  <subsystems>Администрирование</subsystems>
+  <subsystems>МобильноеПриложение</subsystems>
+  <subsystems>Телеграм</subsystems>
+</mdclass:Subsystem>

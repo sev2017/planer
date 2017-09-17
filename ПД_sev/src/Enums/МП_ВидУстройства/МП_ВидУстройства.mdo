@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c16d64f-5b18-49d1-9b57-e56ee4318775">
+  <producedTypes>
+    <refType typeId="c509f49b-8fea-463b-9691-170f3ed4ffb7" valueTypeId="eb3c16a2-ad5a-4a98-b441-865553d5e938"/>
+    <listType typeId="6cd15d24-1603-4327-b235-36baad703ae7" valueTypeId="5f2f9881-00a0-4bcb-8cd9-0bf4cc53894a"/>
+    <managerType typeId="5dd37af5-2c02-4516-95ba-b2af1f291080" valueTypeId="ab2e9236-b1f3-48b6-841d-a8a125d20fe1"/>
+  </producedTypes>
+  <name>МП_ВидУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид устройства</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb258503-ed6b-4c46-8ffc-38eb81d20c4b">
+    <name>ТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4e56a7a3-55dd-47b0-9d85-cd6cd8a6e810">
+    <name>ПланшетЭкспедитора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планшет экспедитора</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3af18c5a-05d1-4082-ba56-a9dffb45c106">
+    <name>ТелевизионнаяПриставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телевизионная приставка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

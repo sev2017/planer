@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09e85cd1-b97c-4d88-b05d-c0359d031fac">
+  <producedTypes>
+    <managerType typeId="592f623c-77d9-44b4-9b1d-b0e12690dd7e" valueTypeId="68763463-2580-4005-8de3-6f6e821bab43"/>
+    <valueManagerType typeId="5ba1aee1-0f1f-4271-a1ec-f68ddddf6c4b" valueTypeId="e429e254-ef98-4c2b-b32a-61324d65efac"/>
+  </producedTypes>
+  <name>СМСПорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>СМСПорт</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

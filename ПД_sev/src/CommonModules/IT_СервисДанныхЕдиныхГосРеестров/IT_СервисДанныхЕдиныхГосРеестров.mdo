@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ed03644-3d08-4a33-a179-6f5812cde81b">
+  <name>IT_СервисДанныхЕдиныхГосРеестров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис данных ЕГРЮЛ / ЕГРИП</value>
+  </synonym>
+  <comment>(eugenemoiseenko.ru)</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

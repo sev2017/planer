@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34f88b27-08ad-4fbc-8b0b-3355289fdd7c">
+  <name>Telegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>telegram</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="b0710f2e-fd91-4cd7-ae58-bfd3debc8307">
+    <name>telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+    <comment></comment>
+    <template>/*</template>
+    <methods uuid="9552ac3a-2fe7-4566-badd-6d0bc126945a">
+      <name>test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Test</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>Any</httpMethod>
+      <handler>telegramМетод1</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

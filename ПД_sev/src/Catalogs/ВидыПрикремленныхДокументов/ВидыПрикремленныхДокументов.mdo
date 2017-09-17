@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff63cfd1-7389-4dda-94ec-b098899474c0">
+  <producedTypes>
+    <objectType typeId="6d4b98e6-b43d-438a-a6b2-318b4744c0b4" valueTypeId="a2627d55-65d8-4149-b2c8-6835d4157d94"/>
+    <refType typeId="3cd01ef3-c1db-4c52-91fc-2a1605036d26" valueTypeId="700699eb-0e20-4869-abad-4b360e60e36d"/>
+    <selectionType typeId="d8086658-ee84-4a10-9763-013c326b161c" valueTypeId="ac7424b3-ded4-4695-8685-78f6cfdd8342"/>
+    <listType typeId="297634d8-a019-40a5-a29a-a3a5293ea45b" valueTypeId="3958f952-141c-45b8-87ea-e9edc0ec53d7"/>
+    <managerType typeId="56c3fdc9-f32f-416e-b207-7f4cd843de58" valueTypeId="11bb34ca-6539-4361-b6c1-12890d8125c2"/>
+  </producedTypes>
+  <name>ВидыПрикремленныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды прикремленных документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПрикремленныхДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыПрикремленныхДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

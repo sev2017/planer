@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9200137d-0edf-405e-938b-9de3214b12d2">
+  <producedTypes>
+    <managerType typeId="3ee37d82-800b-4ae9-9ff3-61d57c139673" valueTypeId="ac7f4a94-54aa-4fab-b5e8-e9a15a9e7af1"/>
+    <valueManagerType typeId="517d1d95-b520-4950-94c5-3bf2a8f9406b" valueTypeId="f5f8978c-92b7-4605-be3b-e5a9446fbb00"/>
+  </producedTypes>
+  <name>IT_ИнтернетПоддержкаЛогин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин интернет-поддержки</value>
+  </synonym>
+  <comment>(eugenemoiseenko.ru)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

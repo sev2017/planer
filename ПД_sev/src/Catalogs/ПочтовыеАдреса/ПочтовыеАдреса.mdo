@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffd76493-4dde-44d9-93a1-419b911c4a07">
+  <producedTypes>
+    <objectType typeId="60b8fd2f-e9b3-4c70-bf24-f60f5718ce4f" valueTypeId="1c764a0a-1b15-403d-8d67-9acf41656020"/>
+    <refType typeId="06015770-1bb5-40d0-87e0-1108a9c98dd9" valueTypeId="1854efda-2b51-4ea1-90b4-3d8bd90c0090"/>
+    <selectionType typeId="69f3e4a8-0e39-476f-b8c4-cc1511ecffad" valueTypeId="d7f238e1-92ed-489e-a5dc-818622249209"/>
+    <listType typeId="caad1142-9967-466f-88a0-62405bc614e3" valueTypeId="d81422ac-87ed-4f78-9ae6-3f366a3ebde7"/>
+    <managerType typeId="ad62e714-e7d9-41a2-8b73-236f86e431a3" valueTypeId="c2b36190-363d-4a4e-906c-ba8cafcd9dcc"/>
+  </producedTypes>
+  <name>ПочтовыеАдреса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почтовые адреса</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПочтовыеАдреса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПочтовыеАдреса.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

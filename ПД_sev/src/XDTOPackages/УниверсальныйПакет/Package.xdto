@@ -1,0 +1,6 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.universal-package.org">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="ХранилищаЗначений">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="Хранилище" type="d3p1:ValueStorage" upperBound="-1" nillable="false"/>
+	</objectType>
+</package>

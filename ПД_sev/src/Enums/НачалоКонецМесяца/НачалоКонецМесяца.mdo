@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="725fd482-b719-4c87-b039-7b97a602f5c8">
+  <producedTypes>
+    <refType typeId="88333805-17d7-4ca7-adce-999d48b3573d" valueTypeId="e395f1c7-e185-407a-91a0-5331cb0b61ef"/>
+    <listType typeId="1d40eab4-406d-487c-94c6-7cb11396bfcb" valueTypeId="92c1ac34-4069-4726-93a8-1a350c02b2fa"/>
+    <managerType typeId="903120a0-6204-4329-a2ca-eb521b5dd921" valueTypeId="1a78d751-f292-4008-9b5c-dc245b3c099b"/>
+  </producedTypes>
+  <name>НачалоКонецМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало конец месяца</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dca4c514-33ec-492f-ba46-bfbb18c5d0d8">
+    <name>ПервыйДеньМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый день месяца</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3514a4c0-d16c-4b24-8411-42082bc2aae6">
+    <name>ПоследнийДеньМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний день месяца</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3fec21a-77df-47ce-ac84-533c98f0d1f6">
+  <producedTypes>
+    <objectType typeId="0f8011d1-76ff-466b-9c7b-25067e8b60d8" valueTypeId="1127a674-3b89-4d53-ba4a-7fafcfddaa56"/>
+    <managerType typeId="4849a5ee-cd7e-414e-a54b-05499197adce" valueTypeId="52fdfdb3-33ce-4bfe-8f06-f503016a84cf"/>
+  </producedTypes>
+  <name>РаботаСDVR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа СDVR</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e37e508-ae2c-4c9c-8957-37b2e271e3e7">
+  <producedTypes>
+    <managerType typeId="c28b6a33-5049-44c8-a39a-c44a27b5ac43" valueTypeId="e327066b-8f1e-4f0e-95b7-ab6123e7603d"/>
+    <valueManagerType typeId="4e19c7c3-a9ec-4145-a1a9-af54b0f5ba63" valueTypeId="edb6b2ce-69fc-4a2e-8201-937f52b46e77"/>
+  </producedTypes>
+  <name>ШаблоныТелефонныхНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны телефонных номеров</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

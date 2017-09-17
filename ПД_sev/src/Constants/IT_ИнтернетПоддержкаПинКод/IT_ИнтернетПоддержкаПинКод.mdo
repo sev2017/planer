@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4aa0b68-6004-4ec3-b03c-e4783fa1fc82">
+  <producedTypes>
+    <managerType typeId="e8870e9a-67f3-48d1-aeb7-03ec19cca431" valueTypeId="fc9d7002-e175-41a6-a330-37bcdb112c65"/>
+    <valueManagerType typeId="ec25c178-dfed-40b7-83fe-2487449e8dad" valueTypeId="97658c9e-1c4b-47d1-9b71-2fa14ac8292f"/>
+  </producedTypes>
+  <name>IT_ИнтернетПоддержкаПинКод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пин-код активации интернет-поддержки</value>
+  </synonym>
+  <comment>(eugenemoiseenko.ru)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

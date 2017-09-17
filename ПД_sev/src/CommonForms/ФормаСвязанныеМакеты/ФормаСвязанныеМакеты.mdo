@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="915118ac-101f-49e8-b49b-5f098a06adc6">
+  <name>ФормаСвязанныеМакеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макеты</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70871013-4a19-44dc-ae83-5a8ec5220bcc">
+  <producedTypes>
+    <objectType typeId="81ab7cac-8e08-4ce0-b7fb-4b8fb90cf4b7" valueTypeId="5b194fd9-91cd-4a80-991a-667693464dab"/>
+    <refType typeId="35d25642-c0ff-41fb-a9d7-4ff2ca3fe851" valueTypeId="b33423e7-bddb-49dd-97ce-19b8129ad84c"/>
+    <selectionType typeId="9bdd4fd4-fb01-493d-aa7b-fcdd0a7176f4" valueTypeId="5a7a5493-2472-44f2-acd0-9f713a1cef0b"/>
+    <listType typeId="46b7b320-76d9-47eb-9627-b9b50bbecd28" valueTypeId="3d41fcc5-a023-49ed-bba8-a7bc7e14ea1c"/>
+    <managerType typeId="38e6861c-058e-44ac-a788-b03071b1825b" valueTypeId="7feae140-7979-4a48-99ba-c22b4cdbab1c"/>
+  </producedTypes>
+  <name>ТелеграмКоманды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм команды</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТелеграмКоманды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТелеграмКоманды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f466e95c-e13a-44e8-93ad-eaa2200cf231">
+      <name>Начисления</name>
+      <description>/Начисления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="3f9d9cad-7658-4d75-a832-8a86d548c6e3">
+      <name>ОтчетПоДолгам</name>
+      <description>/Отчет по долгам</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="27387363-62ae-4e9b-a04d-3056066ec08a">
+      <name>ПанельЗадач</name>
+      <description>/Панель задач</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="afbda2d7-f3c2-425f-8d50-00d8ddb914d4">
+      <name>ФотоКПроекту</name>
+      <description>/Фото к проекту</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="baf67e58-3aa1-47ba-9380-e69753c61b2a">
+      <name>help</name>
+      <description>help</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="1a17153b-e1f9-4c3d-86c7-6d1d9413cecf">
+      <name>ВыдатьДеньги</name>
+      <description>Выдать деньги</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="f61e3c42-a1c7-46f6-9d32-f5cd2a7c3ef0">
+      <name>ЗанестиОплату</name>
+      <description>Занести оплату</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="c29510f2-2fa8-49a9-ac18-71d85a1f6ed0">
+      <name>ЗанестиРасход</name>
+      <description>Занести расход</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="51f255a7-967f-4ea1-acb7-cbae5d6fd3a5">
+      <name>ПолучитьСчет</name>
+      <description>Получить счет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="107ff602-0616-4429-aa23-e467738593af">
+      <name>РабочееВремя</name>
+      <description>Рабочее время</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="bf477812-2511-4cd5-a2ef-0ba567f4144b">
+    <producedTypes>
+      <objectType typeId="30912cfb-49da-4d3d-aced-c587ad9dec84" valueTypeId="92725e17-3f6f-47d6-82ce-2abda136a6ab"/>
+      <rowType typeId="d880fe81-99fe-42b5-8e8a-9ec4f1d2760a" valueTypeId="7c673d4f-0614-4656-af1d-a1c93fb5d6c2"/>
+    </producedTypes>
+    <name>РолиДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли доступа</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="954f6687-9585-4c69-97d4-c2d5d0aa41fe">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ТелеграмРолиДоступа</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolderAndItem</use>
+  </tabularSections>
+</mdclass:Catalog>

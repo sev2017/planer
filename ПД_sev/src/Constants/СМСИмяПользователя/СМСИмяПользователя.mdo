@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="049d5b4e-f195-4962-a571-608889064dcd">
+  <producedTypes>
+    <managerType typeId="4aadc191-57e3-4cb8-a387-e7f359238379" valueTypeId="17bafdf9-fcfa-49c4-8a8c-6828926ecf07"/>
+    <valueManagerType typeId="d8eb27ea-f4d0-4a1a-8542-f486b85c12d7" valueTypeId="a9f678ec-75f0-41ea-9957-a6158cad3b27"/>
+  </producedTypes>
+  <name>СМСИмяПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>СМСИмя пользователя</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

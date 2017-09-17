@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c04710a8-82b0-4278-828f-bc49d39cfbd0">
+  <name>invent</name>
+  <synonym>
+    <key>ru</key>
+    <value>invent</value>
+  </synonym>
+  <comment></comment>
+  <namespace>www.uri.ru</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.УниверсальныйПакет</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>mobile.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="60ef8767-0a9b-4933-afc9-3c1917906f81">
+    <name>УниверсальнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальная операция</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ХранилищаЗначений</name>
+      <nsUri>http://www.universal-package.org</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>УниверсальнаяОперация</procedureName>
+    <parameters uuid="1e485c84-af54-4519-9a71-84e706cb6995">
+      <name>ДанныеХранилища</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные хранилища</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

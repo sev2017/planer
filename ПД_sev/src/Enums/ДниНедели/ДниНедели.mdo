@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35502989-f886-499d-8792-fa13c53bff89">
+  <producedTypes>
+    <refType typeId="224cc4b2-7f59-40f1-80bd-eee1d73f3dba" valueTypeId="eeac95c0-d3c8-4b5d-8f5b-7d890618f99a"/>
+    <listType typeId="4b7dba68-24ab-4789-8ea8-b9f50b77ffb4" valueTypeId="8f9aa419-f226-4a4c-9eb4-052efb0038df"/>
+    <managerType typeId="3acebb1f-7475-4fa0-8f64-a77e2fc5c4b1" valueTypeId="91632484-a42e-4fab-9785-d2a41b1f55a7"/>
+  </producedTypes>
+  <name>ДниНедели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни недели</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64c0249b-201a-470a-8280-ac7371f41eba">
+    <name>Понедельник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Понедельник</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="175c2f58-74f8-43d5-ba9b-2c9884563555">
+    <name>Вторник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторник</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="783f550c-95a3-4f55-bc07-461d35996b66">
+    <name>Среда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среда</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b76d99e1-aa93-49f8-9b23-afa3a663ebaf">
+    <name>Четверг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четверг</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f363bbe4-693f-4b25-9bcd-9387fd11e09a">
+    <name>Пятница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятница</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e19d151c-fb0e-4009-a60e-ae8b2b46a3e4">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ecfa3e0b-4314-4039-8e5a-4d8bac67b28e">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

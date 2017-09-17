@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6d9d9a2-1c86-4d21-bc53-d09de41cbf94">
+  <producedTypes>
+    <refType typeId="def7b195-cafd-4cf1-a25b-d08356a54d47" valueTypeId="ecdeb93e-de7a-4d69-a406-5157668e6acc"/>
+    <listType typeId="70784eca-c2de-4e92-8435-a201fa3e9711" valueTypeId="a1dd20cb-741f-4256-a9a9-c3fbcb0b13df"/>
+    <managerType typeId="5f4af73c-e0b4-4c44-ac3b-898fd35c9208" valueTypeId="c4763c95-2ee0-400c-af0e-2aeb959bff93"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6316e9ee-822e-43b3-b693-43f48930f47d">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="9c7d4e3d-932c-4b9c-afc1-04e8a631300a">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="32419221-3c5e-4c7d-baa9-5f326532b1af">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>E-Mail</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="6aee91d5-3cee-4238-93b7-595c52a04a71">
+    <name>ВебСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб-страница</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ebbb86bd-fe0a-4d42-bb00-a89bcedc01f5">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

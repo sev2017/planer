@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91935c49-da79-4184-b909-593d0eef5695">
+  <name>ОбработатьРассылкуСМСПоDVR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработать рассылку СМСПо DVR</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.РаботаСDVR.ОбработатьВходящиеСообщения</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

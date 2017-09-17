@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aef0a9cb-a74c-4606-bec0-661b5e1bf374">
+  <name>Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Подсистемы</picture>
+  </picture>
+  <content>Catalog.Проекты</content>
+  <content>Document.СчетПокупателя</content>
+  <content>Document.СчетПоставщика</content>
+  <content>Document.ПрочиеЗатраты</content>
+  <content>Document.РабочееВремя</content>
+  <content>Report.РентабельностьПоПроекту</content>
+  <content>Report.ВыполнениеПроектов</content>
+  <content>Task.ЗадачиПользователя</content>
+</mdclass:Subsystem>
